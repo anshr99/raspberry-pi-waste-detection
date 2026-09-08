@@ -35,16 +35,22 @@ pip install -r requirements.txt
 ## Usage:
 
 Connect a USB webcam (or enable the Pi Camera Module), then run:
+
 #bash
 python waste_detection.py
 
 A live window will open showing the camera feed with bounding boxes and waste/not-waste labels.
+
 Press q to quit.
 
 ## How It Works:
 Camera Feed → YOLOv5 Nano Inference → Bounding Boxes + Class Labels → Waste/Non-Waste Mapping → Display
+
 Frames are captured from the camera using OpenCV.
+
 Each frame is passed through a YOLOv5 Nano model (yolov5n.pt) for object detection.
+
 Detected classes are checked against a waste-related label list (e.g. bottle, cup) to flag them as "Waste."
+
 Bounding boxes, labels, and confidence scores are drawn on the frame and displayed in real time.
 
