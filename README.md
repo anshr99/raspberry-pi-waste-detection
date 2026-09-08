@@ -24,8 +24,9 @@ Storage:	16GB+ microSD (32GB recommended)
 OS:	Raspberry Pi OS (64-bit recommended)
 
 ## Installation:
-#Clone the repository
+
 ```bash
+#Clone the repository
 git clone https://github.com/anshr99/raspberry-pi-waste-detection.git
 cd raspberry-pi-waste-detection
 
