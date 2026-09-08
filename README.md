@@ -25,11 +25,17 @@ OS:	Raspberry Pi OS (64-bit recommended)
 ## Installation:
 #Clone the repository
 git clone https://github.com/anshr99/raspberry-pi-waste-detection.git
+
 cd raspberry-pi-waste-detection
+
 #(Recommended) create a virtual environment
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 #Install dependencies
+
 pip install -r requirements.txt
 
 ## Usage:
