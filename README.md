@@ -16,8 +16,11 @@ Runs entirely on-device — no internet connection required for inference
 
 ## Hardware Requirements:
 Raspberry Pi:	Pi 4 (4GB+) recommended; Pi 3B+ will run but slower
+
 Camera:	USB webcam or Pi Camera Module
+
 Storage:	16GB+ microSD (32GB recommended)
+
 OS:	Raspberry Pi OS (64-bit recommended)
 
 ## Installation:
