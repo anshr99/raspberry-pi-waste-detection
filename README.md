@@ -2,8 +2,6 @@
 
 ## Final Year Capstone Project
 
-Final Year Capstone Project
-
 A real-time computer vision system that detects and classifies potential waste objects using YOLOv5 Nano and OpenCV, deployed for lightweight edge AI inference on a Raspberry Pi.
 
 This project explores how far a small, resource-constrained device can go running modern object detection models in real time — no cloud, no GPU, just a Pi and a camera.
